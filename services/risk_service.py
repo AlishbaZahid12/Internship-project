@@ -23,7 +23,7 @@ class RiskService:
 
     def check_product(self, user_id: int, extracted_text: str) -> dict:
         if not extracted_text.strip():
-            result = {"verdict": "unknown", "reason": "No readable text was found on the label.", "item_name": "unknown"}
+            result = {"verdict": "unknown", "reason": "No readable text was found on the label.", "item_name": "extracted_text[:200]"}
             self._log(user_id, extracted_text, result)
             return result
 

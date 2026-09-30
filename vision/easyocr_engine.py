@@ -3,6 +3,7 @@ Concrete EasyOCR implementation of the OCREngine interface.
 """
 
 import ssl
+import cv2
 import easyocr
 from core.interfaces import OCREngine
 from core.exceptions import ModelLoadError
@@ -27,5 +28,8 @@ class EasyOCREngine(OCREngine):
             raise ModelLoadError(str(e))
 
     def extract_text(self, frame) -> str:
-        results = self.reader.readtext(frame, detail=0)
+        # Grayscale preprocessing: OCR doesn't need color, and dropping
+        # it reduces the data EasyOCR has to process, speeding things up.
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        results = self.reader.readtext(gray, detail=0)
         return " ".join(results).strip()

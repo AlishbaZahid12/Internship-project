@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS medical_conditions (
 CREATE TABLE IF NOT EXISTS scan_history (
     scan_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
-    scanned_item_name VARCHAR(255),
+    scanned_item_name VARCHAR(500),
     extracted_text TEXT,
     verdict ENUM('safe', 'risky', 'unknown') NOT NULL,
     reason TEXT,

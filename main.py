@@ -413,9 +413,9 @@ def run_camera_session(vision: VisionService, voice: VoiceService,
             print("Camera read failed.")
             break
 
-        display_frame = frame.copy()
+        display_frame = cv2.resize(frame, (480, 360))
         cv2.putText(display_frame, "describe / scan / history / profile / exit",
-                    (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+            (10, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
         cv2.imshow("Sight Assist - Live Camera", display_frame)
 
         key = cv2.waitKey(1) & 0xFF

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "peanuts",
+    "aliases": ["peanut", "groundnut", "peanut butter", "arachis"],
+    "risk_for_allergies": ["peanuts", "peanut", "nut allergy", "tree nuts"],
+    "risk_for_conditions": [],
+    "warning": "Contains peanuts. High risk for anaphylaxis in people with peanut allergies."
+  },
+  {
+    "name": "milk",
+    "aliases": ["dairy", "whey", "casein", "milk powder", "cream","Cheese","Coffee","Tea","Calcium Caseniate","Sodium Chloride","Ice cream",""],
+    "risk_for_allergies": ["milk", "dairy", "lactose", "milk allergy"],
+    "risk_for_conditions": ["lactose intolerance"],
+    "warning": "Contains milk/dairy. Unsafe for lactose-intolerant or dairy-allergic individuals."
+  },
+  {
+    "name": "wheat",
+    "aliases": ["gluten", "flour", "maida", "atta", "barley", "rye"],
+    "risk_for_allergies": ["wheat", "gluten", "celiac"],
+    "risk_for_conditions": ["celiac disease"],
+    "warning": "Contains wheat/gluten. Unsafe for people with celiac disease or gluten intolerance."
+  },
+  {
+    "name": "eggs",
+    "aliases": ["egg", "albumin", "egg powder","cakes","egg rice"],
+    "risk_for_allergies": ["eggs", "egg allergy"],
+    "risk_for_conditions": [],
+    "warning": "Contains eggs. Can trigger allergic reactions in egg-sensitive individuals."
+  },
+  {
+    "name": "soy",
+    "aliases": ["soya", "soybean", "soy lecithin", "soy protein"],
+    "risk_for_allergies": ["soy", "soya", "soy allergy"],
+    "risk_for_conditions": [],
+    "warning": "Contains soy. Can trigger allergic reactions in soy-sensitive individuals."
+  },
+  {
+    "name": "shellfish",
+    "aliases": ["shrimp", "crab", "prawns", "lobster"],
+    "risk_for_allergies": ["shellfish", "seafood allergy", "shrimp"],
+    "risk_for_conditions": [],
+    "warning": "Contains shellfish. High risk for anaphylaxis in people with shellfish allergies."
+  },
+  {
+    "name": "tree nuts",
+    "aliases": ["almonds", "cashews", "walnuts", "pistachios", "hazelnuts"],
+    "risk_for_allergies": ["tree nuts", "nut allergy", "almonds", "cashews"],
+    "risk_for_conditions": [],
+    "warning": "Contains tree nuts. High risk for anaphylaxis in people with nut allergies."
+  },
+  {
+    "name": "sesame",
+    "aliases": ["til", "sesame seeds", "tahini"],
+    "risk_for_allergies": ["sesame", "sesame allergy"],
+    "risk_for_conditions": [],
+    "warning": "Contains sesame. Can trigger allergic reactions in sesame-sensitive individuals."
+  },
+  {
+    "name": "sugar",
+    "aliases": ["sucrose", "glucose", "corn syrup", "dextrose","sweet","coffee","tea","biscuits","cakes"],
+    "risk_for_allergies": [],
+    "risk_for_conditions": ["diabetes", "high blood sugar"],
+    "warning": "Contains added sugar. Should be consumed cautiously by people with diabetes."
+  },
+  {
+    "name": "sodium",
+    "aliases": ["salt", "sodium chloride", "msg", "monosodium glutamate"],
+    "risk_for_allergies": [],
+    "risk_for_conditions": ["hypertension", "high blood pressure", "kidney disease"],
+    "warning": "High sodium content. Should be consumed cautiously by people with high blood pressure or kidney disease."
+  }
+]

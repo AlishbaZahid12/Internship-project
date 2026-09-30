@@ -1,0 +1,72 @@
+[
+  {
+    "name": "paracetamol",
+    "aliases": ["calpol", "tylenol", "panadol", "acetaminophen"],
+    "risk_for_allergies": ["paracetamol", "acetaminophen"],
+    "risk_for_conditions": ["liver disease", "liver condition", "chronic liver disease"],
+    "warning": "Contains paracetamol. Overdose or long-term use can cause liver damage — risky for people with liver conditions."
+  },
+  {
+    "name": "ibuprofen",
+    "aliases": ["brufen", "advil", "nurofen", "motrin"],
+    "risk_for_allergies": ["ibuprofen", "nsaid", "nsaids"],
+    "risk_for_conditions": ["kidney disease", "stomach ulcer", "asthma", "hypertension", "high blood pressure"],
+    "warning": "Contains ibuprofen, an NSAID. Can worsen kidney problems, stomach ulcers, and raise blood pressure."
+  },
+  {
+    "name": "aspirin",
+    "aliases": ["disprin", "ecotrin", "acetylsalicylic acid"],
+    "risk_for_allergies": ["aspirin", "salicylate", "nsaid"],
+    "risk_for_conditions": ["stomach ulcer", "bleeding disorder", "asthma", "hemophilia"],
+    "warning": "Contains aspirin. Can increase bleeding risk and irritate the stomach lining."
+  },
+  {
+    "name": "penicillin",
+    "aliases": ["amoxicillin", "ampicillin", "augmentin"],
+    "risk_for_allergies": ["penicillin", "amoxicillin", "antibiotic allergy"],
+    "risk_for_conditions": [],
+    "warning": "Contains a penicillin-based antibiotic. Can cause severe allergic reactions in penicillin-sensitive individuals."
+  },
+  {
+    "name": "peanuts",
+    "aliases": ["peanut", "groundnut", "arachis oil"],
+    "risk_for_allergies": ["peanuts", "peanut", "nut allergy", "tree nuts"],
+    "risk_for_conditions": [],
+    "warning": "Contains peanuts. High risk for anaphylaxis in people with peanut allergies."
+  },
+  {
+    "name": "sulfa drugs",
+    "aliases": ["sulfonamide", "bactrim", "sulfamethoxazole"],
+    "risk_for_allergies": ["sulfa", "sulfonamide", "sulfa drugs"],
+    "risk_for_conditions": ["g6pd deficiency"],
+    "warning": "Contains a sulfonamide (sulfa) compound. Can trigger severe allergic reactions in sulfa-sensitive individuals."
+  },
+  {
+    "name": "insulin",
+    "aliases": ["humalog", "lantus", "novolog"],
+    "risk_for_allergies": [],
+    "risk_for_conditions": ["hypoglycemia"],
+    "warning": "Insulin dosage must be carefully managed — incorrect use can cause dangerously low blood sugar."
+  },
+  {
+    "name": "shellfish",
+    "aliases": ["shrimp", "crab", "lobster", "prawns"],
+    "risk_for_allergies": ["shellfish", "seafood allergy", "shrimp"],
+    "risk_for_conditions": [],
+    "warning": "Contains shellfish. High risk for anaphylaxis in people with shellfish allergies."
+  },
+  {
+    "name": "gluten",
+    "aliases": ["wheat", "barley", "malt", "rye"],
+    "risk_for_allergies": ["gluten", "wheat allergy", "celiac"],
+    "risk_for_conditions": ["celiac disease"],
+    "warning": "Contains gluten. Unsafe for people with celiac disease or gluten intolerance."
+  },
+  {
+    "name": "lactose",
+    "aliases": ["milk", "dairy", "whey", "casein"],
+    "risk_for_allergies": ["lactose", "dairy allergy", "milk allergy"],
+    "risk_for_conditions": ["lactose intolerance"],
+    "warning": "Contains dairy/lactose. May cause digestive discomfort for lactose-intolerant individuals."
+  }
+]

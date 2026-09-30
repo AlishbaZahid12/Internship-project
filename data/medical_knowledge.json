@@ -1,0 +1,170 @@
+[
+  {
+    "name": "paracetamol",
+    "aliases": ["calpol", "tylenol", "panadol", "acetaminophen", "softin", "panadol extra", "fevadol","jardin-d","arinac","fexet-d","panadol extra","ponastan","fortan-d"],
+    "risk_for_allergies": ["paracetamol", "acetaminophen"],
+    "risk_for_conditions": ["liver disease", "liver condition", "chronic liver disease"],
+    "warning": "Contains paracetamol. Overdose or long-term use can cause liver damage — risky for people with liver conditions."
+  },
+  {
+    "name": "ibuprofen",
+    "aliases": ["brufen", "advil", "nurofen", "motrin"],
+    "risk_for_allergies": ["ibuprofen", "nsaid", "nsaids"],
+    "risk_for_conditions": ["kidney disease", "stomach ulcer", "asthma", "hypertension", "high blood pressure"],
+    "warning": "Contains ibuprofen, an NSAID. Can worsen kidney problems, stomach ulcers, and raise blood pressure."
+  },
+  {
+    "name": "aspirin",
+    "aliases": ["disprin", "ecotrin", "acetylsalicylic acid"],
+    "risk_for_allergies": ["aspirin", "salicylate", "nsaid"],
+    "risk_for_conditions": ["stomach ulcer", "bleeding disorder", "asthma", "hemophilia"],
+    "warning": "Contains aspirin. Can increase bleeding risk and irritate the stomach lining."
+  },
+  {
+    "name": "penicillin",
+    "aliases": ["amoxicillin", "ampicillin", "augmentin", "amoxil","azomax","Oxacillin","Ticarcillin","Dicloxacillin","Nafcillin"],
+    "risk_for_allergies": ["penicillin", "amoxicillin", "antibiotic allergy"],
+    "risk_for_conditions": [],
+    "warning": "Contains a penicillin-based antibiotic. Can cause severe allergic reactions in penicillin-sensitive individuals."
+  },
+  {
+    "name": "dextromethorphan",
+    "aliases": ["benylin", "benylin dm", "actifed dm", "cough syrup"],
+    "risk_for_allergies": ["dextromethorphan", "cough syrup allergy"],
+    "risk_for_conditions": ["depression", "liver disease"],
+    "warning": "Cough suppressant. Can interact dangerously with antidepressant medications (serotonin syndrome risk)."
+  },
+  {
+    "name": "guaifenesin",
+    "aliases": ["robitussin", "mucinex", "expectorant"],
+    "risk_for_allergies": ["guaifenesin"],
+    "risk_for_conditions": [],
+    "warning": "Expectorant used to loosen mucus. Generally safe, but avoid with known sensitivity."
+  },
+  {
+    "name": "pseudoephedrine",
+    "aliases": ["actifed", "decolgen", "sudafed", "flu decongestant"],
+    "risk_for_allergies": ["pseudoephedrine", "decongestant allergy"],
+    "risk_for_conditions": ["hypertension", "high blood pressure", "heart disease"],
+    "warning": "Decongestant used for flu/cold. Can raise blood pressure and heart rate — risky for hypertension and heart conditions."
+  },
+  {
+    "name": "loperamide",
+    "aliases": ["imodium", "diarrhea medicine", "antidiarrheal","Diamode"],
+    "risk_for_allergies": ["loperamide"],
+    "risk_for_conditions": ["liver disease"],
+    "warning": "Used for diarrhea (gastro). Should be used cautiously in people with liver conditions."
+  },
+  {
+    "name": "hyoscine",
+    "aliases": ["buscopan", "antispasmodic", "stomach cramp medicine"],
+    "risk_for_allergies": ["hyoscine", "buscopan allergy"],
+    "risk_for_conditions": ["glaucoma", "myasthenia gravis"],
+    "warning": "Used for stomach cramps/gastro spasms. Avoid with glaucoma or certain muscle conditions."
+  },
+  {
+    "name": "oral rehydration salts",
+    "aliases": ["ors", "electrolyte powder", "rehydration solution"],
+    "risk_for_allergies": [],
+    "risk_for_conditions": ["kidney disease"],
+    "warning": "Used for dehydration from gastro/diarrhea. Use cautiously with kidney conditions due to electrolyte content."
+  },
+  {
+    "name": "cetirizine",
+    "aliases": ["zyrtec", "alerid", "cetrizet", "allergy tablet"],
+    "risk_for_allergies": ["cetirizine", "antihistamine allergy"],
+    "risk_for_conditions": ["kidney disease"],
+    "warning": "Antihistamine for allergies. Dose adjustment may be needed with kidney conditions."
+  },
+  {
+    "name": "loratadine",
+    "aliases": ["claritin", "lorfast", "allergy relief"],
+    "risk_for_allergies": ["loratadine", "antihistamine allergy"],
+    "risk_for_conditions": ["liver disease"],
+    "warning": "Antihistamine for allergies. Use cautiously with liver conditions."
+  },
+  {
+    "name": "fexofenadine",
+    "aliases": ["allegra", "telfast"],
+    "risk_for_allergies": ["fexofenadine", "antihistamine allergy"],
+    "risk_for_conditions": [],
+    "warning": "Antihistamine for allergies. Generally well-tolerated, avoid with known sensitivity."
+  },
+  {
+    "name": "fluoxetine",
+    "aliases": ["prozac", "antidepressant"],
+    "risk_for_allergies": ["fluoxetine", "ssri allergy"],
+    "risk_for_conditions": ["bipolar disorder", "seizure disorder"],
+    "warning": "SSRI antidepressant for depression. Requires caution with bipolar disorder or seizure conditions."
+  },
+  {
+    "name": "sertraline",
+    "aliases": ["zoloft", "lustral"],
+    "risk_for_allergies": ["sertraline", "ssri allergy"],
+    "risk_for_conditions": ["bipolar disorder", "liver disease"],
+    "warning": "SSRI antidepressant for depression/anxiety. Use cautiously with liver conditions."
+  },
+  {
+    "name": "amitriptyline",
+    "aliases": ["tryptin", "elavil"],
+    "risk_for_allergies": ["amitriptyline", "tricyclic allergy"],
+    "risk_for_conditions": ["heart disease", "glaucoma"],
+    "warning": "Tricyclic antidepressant. Can affect heart rhythm — risky for heart conditions and glaucoma."
+  },
+  {
+    "name": "alprazolam",
+    "aliases": ["xanax", "zolam", "restyl"],
+    "risk_for_allergies": ["alprazolam", "benzodiazepine allergy"],
+    "risk_for_conditions": ["depression", "liver disease", "respiratory disease"],
+    "warning": "Benzodiazepine for anxiety. Risk of dependency; caution with liver or respiratory conditions."
+  },
+  {
+    "name": "diazepam",
+    "aliases": ["valium", "anxiety medicine"],
+    "risk_for_allergies": ["diazepam", "benzodiazepine allergy","alp","tryptanol"],
+    "risk_for_conditions": ["liver disease", "respiratory disease", "myasthenia gravis"],
+    "warning": "Benzodiazepine for anxiety. Caution with liver, respiratory, or muscle conditions."
+  },
+  {
+    "name": "omeprazole",
+    "aliases": ["risek", "losec", "omesec", "ulcer medicine"],
+    "risk_for_allergies": ["omeprazole", "ppi allergy"],
+    "risk_for_conditions": ["osteoporosis", "kidney disease"],
+    "warning": "Used for stomach ulcers/acidity. Long-term use linked to bone density loss and kidney issues."
+  },
+  {
+    "name": "ranitidine",
+    "aliases": ["zantac", "antacid"],
+    "risk_for_allergies": ["ranitidine"],
+    "risk_for_conditions": ["kidney disease"],
+    "warning": "Used for ulcers/acidity. Dose adjustment needed with kidney conditions."
+  },
+  {
+    "name": "benzocaine",
+    "aliases": ["orajel", "dologel", "tooth pain gel"],
+    "risk_for_allergies": ["benzocaine", "local anesthetic allergy"],
+    "risk_for_conditions": [],
+    "warning": "Topical dental pain relief. Rare risk of a serious blood condition (methemoglobinemia) in sensitive individuals."
+  },
+  {
+    "name": "chlorhexidine",
+    "aliases": ["hexisol", "dental mouthwash", "antiseptic mouthwash"],
+    "risk_for_allergies": ["chlorhexidine"],
+    "risk_for_conditions": [],
+    "warning": "Antiseptic mouthwash for dental care. Avoid with known sensitivity."
+  },
+  {
+    "name": "sulfa drugs",
+    "aliases": ["sulfonamide", "bactrim", "sulfamethoxazole"],
+    "risk_for_allergies": ["sulfa", "sulfonamide", "sulfa drugs"],
+    "risk_for_conditions": ["g6pd deficiency"],
+    "warning": "Contains a sulfonamide (sulfa) compound. Can trigger severe allergic reactions in sulfa-sensitive individuals."
+  },
+  {
+    "name": "insulin",
+    "aliases": ["humalog", "lantus", "novolog"],
+    "risk_for_allergies": [],
+    "risk_for_conditions": ["hypoglycemia"],
+    "warning": "Insulin dosage must be carefully managed — incorrect use can cause dangerously low blood sugar."
+  }
+]
